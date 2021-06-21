@@ -1,0 +1,62 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import "sass/colors";
+@import "sass/layout";
+@import "sass/typography";
+@import "sass/buttons";
+@import "sass/spacing";
+@import "sass/contact1";
+
+html {
+    scroll-behavior: smooth;  // scroll mais suave
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+    scroll-behavior: smooth;
+
+    background-color: red;
+}
+
+svg, img{
+    display: block;
+    width: 100%;
+}
+
+.border{
+    border: 1px solid red;
+}
+
+body {
+    background: #FFF8F3;
+    color: var(--white);
+    position: relative;
+}
+
+body, input, textarea, select, button {
+    font: 400 1rem "Mukta", sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@import "sass/menu";
+@import "sass/swiper";
+@import "sass/icons";
+@import "sass/footer";
+@import "sass/animations";
+@import "sass/modals";
+@import "sass/contact";

@@ -1,0 +1,142 @@
+// HERO
+
+
+.codar {
+    animation: bg-hero-3 3s 0.5s ease infinite alternate;
+}
+.sustentabilidade {
+    animation: bg-hero-3 3s 1s ease infinite alternate;
+}
+.net {
+    animation: bg-hero-1 3s 1.2s ease infinite alternate;
+}
+.luz {
+    animation: bg-hero-2 3s 1.2s ease infinite alternate;
+}
+.lr {
+    animation: bg-hero-1 3s 1.2s ease infinite alternate;
+}
+.raio {
+    animation: bg-hero-4 2s 3s ease infinite alternate;
+}
+.planeta {
+    animation: bg-hero-1 3s 3s ease infinite alternate;
+}
+.gota {
+    animation: bg-hero-2 3s 2s ease infinite alternate;
+}
+@keyframes bg-hero-0{
+    0% {
+        transform: translate3d(0,25px,0);
+    }
+    100%{
+        transform: translate3d(0,50px,0);
+    }
+}
+@keyframes bg-hero-1{
+    
+    0% {
+        transform: translate3d(0,25px,0);
+    }
+    100%{
+        transform: translate3d(0,50px,0);
+    }
+   
+}
+@keyframes bg-hero-2{
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translateX(90px);
+    }
+}
+@keyframes bg-hero-3{
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
+}
+@keyframes bg-hero-4{
+    0% {
+        transform: translate3d(0,10px,0);
+    }
+    100%{
+        transform: translateY(-30px);
+    }
+}
+
+// SECTION PEOPLE
+.people1 {
+    opacity: 0;
+    animation: people 10s ease 0s infinite;
+}
+.people2 {
+    opacity: 0;
+    animation: people 10s ease 5s infinite;
+}
+.people3 {
+    opacity: 0;
+    animation: people 10s ease 2s infinite;
+}
+.people4 {
+    opacity: 0;
+    animation: people 10s ease 7s infinite;
+}
+.people5 {
+    opacity: 0;
+    animation: people 10s ease 3s infinite;
+}
+.people6 {
+    opacity: 0;
+    animation: people 10s ease 8s infinite;
+}
+#people1{
+    @include responsive(m){
+       display: none;
+    }
+}
+#people1{
+    @include responsive(s){
+        display: none;
+    }
+}
+
+@keyframes people {
+    0% {
+        opacity: 0;
+    }
+    20%,50%{
+        opacity: 1;
+    }
+    70%,100%{
+        opacity: 0;
+    }
+}
+// Evolutions
+
+.control {
+    animation: evolution 3s ease infinite alternate;
+}
+.art {
+    animation: evolution 3s ease infinite alternate;
+}
+.pc {
+    animation: evolution 3s ease infinite alternate;
+}
+.eletronica {
+    animation: evolution 3s ease infinite alternate;
+}
+.mec {
+    animation: evolution 3s ease infinite alternate;
+}
+@keyframes evolution {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(0,-10px,0);
+    }
+}
