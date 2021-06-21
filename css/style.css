@@ -1936,8 +1936,8 @@ header {
 }
 
 .gota {
-  -webkit-animation: bg-hero-2 3s 2s ease infinite alternate;
-          animation: bg-hero-2 3s 2s ease infinite alternate;
+  -webkit-animation: bg-hero-1 3s 1.2s ease infinite alternate;
+          animation: bg-hero-1 3s 1.2s ease infinite alternate;
 }
 
 @-webkit-keyframes bg-hero-0 {
