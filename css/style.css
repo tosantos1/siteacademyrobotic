@@ -1826,6 +1826,18 @@ header {
   font-size: 18px;
 }
 
+.footer .telefone-footer p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .telefone-footer p img {
+  margin-left: 16px;
+  width: 25px;
+  height: 25px;
+}
+
 @media screen and (max-width: 960px) and (min-width: 720px) {
   .footer {
     -webkit-box-pack: center;

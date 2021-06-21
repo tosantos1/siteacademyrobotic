@@ -17,6 +17,17 @@
       font-weight: normal;
       font-size: 18px;
     }
+    .telefone-footer {
+      p {
+        display: flex;
+        
+        img {
+          margin-left: 16px;
+          width: 25px;
+          height: 25px;
+        }
+      }
+    }
     @include responsive(m){
       justify-content: center;
     }
