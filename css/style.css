@@ -2201,7 +2201,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 450px;
+  height: 350px;
   border-radius: 16px;
   position: relative;
 }
@@ -2233,10 +2233,19 @@ header {
 }
 
 .modal-text-l p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-l p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-l {
@@ -2319,7 +2328,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 450px;
+  height: 350px;
   border-radius: 16px;
   position: relative;
 }
@@ -2351,10 +2360,19 @@ header {
 }
 
 .modal-text-a p {
-  padding: 4px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-a p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-a {
@@ -2469,10 +2487,19 @@ header {
 }
 
 .modal-text-m p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-m p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-m {
@@ -2587,10 +2614,19 @@ header {
 }
 
 .modal-text-g p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-g p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-g {
@@ -2705,10 +2741,19 @@ header {
 }
 
 .modal-text-r p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-r p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-r {
@@ -2823,10 +2868,19 @@ header {
 }
 
 .modal-text-x p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-x p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-x {
@@ -2909,7 +2963,7 @@ header {
   margin: 10% auto;
   /* 15% from the top and centered */
   width: 450px;
-  height: 450px;
+  height: 500px;
   border-radius: 16px;
   position: relative;
 }
@@ -2941,10 +2995,19 @@ header {
 }
 
 .modal-text-j p {
-  padding: 16px 24px;
+  padding: 0 24px;
   margin: 0 auto;
   font-weight: 500;
   color: #474749;
+  position: relative;
+}
+
+.modal-text-j p img {
+  padding: 0px 8px;
+  position: absolute;
+  right: 0;
+  width: 75px;
+  height: 65px;
 }
 
 .modal-links-j {

@@ -18,7 +18,7 @@
     margin: 10% auto; /* 15% from the top and centered */
     
     width: 450px;
-    height: 450px;
+    height: 350px;
     
     border-radius: 16px;
 
@@ -42,12 +42,24 @@
   }
   
   .modal-text-l p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
+  
 
   .modal-links-l{
   border-radius: 0px 0px 16px 16px;
@@ -121,7 +133,7 @@
     margin: 10% auto; /* 15% from the top and centered */
     
     width: 450px;
-    height: 450px;
+    height: 350px;
     
     border-radius: 16px;
 
@@ -145,12 +157,25 @@
   }
   
   .modal-text-a p{
-    padding: 4px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
+ 
+
   .modal-links-a {
   border-radius: 0px 0px 16px 16px;
   position: absolute;
@@ -245,12 +270,25 @@
   }
   
   .modal-text-m p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
+
+
   .modal-links-m {
   border-radius: 0px 0px 16px 16px;
   position: absolute;
@@ -345,12 +383,24 @@
   }
   
   .modal-text-g p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
+
   .modal-links-g {
   border-radius: 0px 0px 16px 16px;
   position: absolute;
@@ -445,12 +495,24 @@
   }
   
   .modal-text-r p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
+ 
 
   .modal-links-r{
   border-radius: 0px 0px 16px 16px;
@@ -548,12 +610,23 @@
   }
   
   .modal-text-x p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
+
 
   .modal-links-x{
   border-radius: 0px 0px 16px 16px;
@@ -627,7 +700,7 @@
     margin: 10% auto; /* 15% from the top and centered */
     
     width: 450px;
-    height: 450px;
+    height: 500px;
     border-radius: 16px;
 
     position: relative;
@@ -650,11 +723,21 @@
   }
   
   .modal-text-j p{
-    padding: 16px 24px;
+    padding: 0 24px;
     margin: 0 auto;
 
     font-weight: 500;
     color: #474749;
+
+    position: relative;
+
+    img {
+      padding: 0px 8px;
+      position: absolute;
+      right: 0;
+      width: 75px;
+      height: 65px;
+    }
   }
 
   .modal-links-j{
