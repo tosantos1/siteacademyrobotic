@@ -1952,6 +1952,11 @@ header {
           animation: bg-hero-1 3s 1.2s ease infinite alternate;
 }
 
+.olho {
+  -webkit-animation: bg-hero-1 3s 1.2s ease infinite alternate;
+          animation: bg-hero-1 3s 1.2s ease infinite alternate;
+}
+
 @-webkit-keyframes bg-hero-0 {
   0% {
     -webkit-transform: translate3d(0, 25px, 0);
