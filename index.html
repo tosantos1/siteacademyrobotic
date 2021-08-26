@@ -7,16 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" />
+
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;700&family=Raleway:wght@400;500&display=swap"
     rel="stylesheet" />
   <link rel="shortcut icon" href="/image/favicon.png" type="image/png" />
+
   <link rel="stylesheet" href="/css/style.css" />
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+/>
   <title>LR Robótica</title>
+
   <script src="js/svg-inject.min.js"></script>
 
+
   <!-- <script src="./js/modal.js"></script> -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -276,8 +283,9 @@
   </section>
 
   <section class="container-swiper">
-    <div class="swiper-container">
+    <div class="swiper">
       <div class="swiper-wrapper">
+
         <div class="swiper-slide">
           <div class="photo-profile photo-1">
             <img src="/image/p-luciana.png" alt="" />
@@ -356,8 +364,10 @@
             <a id="myBtn-j" class="link">Saiba mais</a>
           </p>
         </div>
+
       </div>
     </div>
+    
     <div class="button-next"></div>
     <div class="button-prev"></div>
   </section>
@@ -531,34 +541,34 @@
     </div>
     </div>
   </section>
-
-  <section>
-    <div id="myModal-g" class="modal-g">
-      <div class="modal-content-g">
-        <div class="item-1-m">
-          <div class="modal-img-g">
-            <img src="/image/p-gustavo.png" alt="" />
-            <div class="modal-name-g">
-              <h4>Gustavo Araújo</h4>
-              <p>Desenvolvedor</p>
+  
+    <section>
+      <div id="myModal-g" class="modal-g">
+        <div class="modal-content-g">
+          <div class="item-1-m">
+            <div class="modal-img-g">
+              <img src="/image/p-gustavo.png" alt="" />
+              <div class="modal-name-g">
+                <h4>Gustavo Araújo</h4>
+                <p>Desenvolvedor</p>
+              </div>
+              <span class="close-g">&times;</span>
             </div>
-            <span class="close-g">&times;</span>
+            <div class="modal-text-g">
+              <p>Desenvolvedor, estudante de tecnologia e programação, ama café e está sempre em busca de novos desafios.
+                <img src="/svg/lexie-icon.svg" alt="">
+              </p>
+            </div>
           </div>
-          <div class="modal-text-g">
-            <p>Desenvolvedor, estudante de tecnologia e programação, ama café e está sempre em busca de novos desafios.
-              <img src="/svg/lexie-icon.svg" alt="">
-            </p>
+          <div class="modal-links-g">
+            <a href=""><img src="svg/linkedin-icon.svg" alt=""></a>
+            <a href="mailto: mxgugaa@gmail.com"><img src="svg/email-icon.svg" alt=""></a>
           </div>
-        </div>
-        <div class="modal-links-g">
-          <a href=""><img src="svg/linkedin-icon.svg" alt=""></a>
-          <a href="mailto: mxgugaa@gmail.com"><img src="svg/email-icon.svg" alt=""></a>
         </div>
       </div>
-    </div>
-    </div>
-  </section>
-
+      </div>
+    </section>
+  
   <section>
     <div id="myModal-r" class="modal-r">
       <div class="modal-content-r">
@@ -588,8 +598,6 @@
     </div>
     </div>
   </section>
-
- 
 
   <section>
     <div id="myModal-j" class="modal-j">
@@ -789,10 +797,14 @@
 
   <!--============== JS ==============-->
   <script src="js/app.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-  <script>
-    var swiper = new Swiper(".swiper-container", {
+
+
+  <script type="module">
+      import Swiper from 'https://unpkg.com/swiper@7/swiper-bundle.esm.browser.min.js'
+
+    const swiper = new Swiper('.swiper', {
       slidesPerView: "auto",
       grabCursor: true,
       pagination: {
